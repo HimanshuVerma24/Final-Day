@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    height: 150vh;
+    background-size: cover;
+    background-image: url(./img/pexels-photo-461940.jpg);
+}
+
+.box1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 500px;
+    color: gold;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 37px;
+    gap: 10px;
+}
+
+.box2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 500px;
+    color: gold;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 37px;
+    gap: 10px;
+
+
+
+}
+
+.box3 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 500px;
+    color: gold;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 37px;
+    gap: 10px;
+
+
+
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 50px 50px;
+    text-align: center;
+    border-radius: 50px 50px;
+}
+input:hover{
+    border: 3px solid black;
+    background-color: rgb(94, 224, 94);
+}
+
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+header:hover span {
+    display: none;
+}
+
+header:hover::after {
+    content: "COMPLETE NOW!!";
+    text-decoration: underline;
+    color: rgb(255, 145, 0);
+}
+
+.array {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 1000px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 200px;
+    background-image: url(./img/image_processing20210519-8184-1h9ntux.gif);
+    border-radius: 50px 50px;
+
+}
+
+.arraybox{
+    line-height: 45px;
+    text-align: center;
+    margin-left: 63px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 400px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.945);
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+} 
+
+.formbutton {
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    margin-top: 30px;
+    margin-left: 750px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.formbutton:hover {
+    box-shadow: 3px 4px 5px red;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+
+.formbutton:hover formsubmit {
+    display: none;
+}
+
+.formbutton:hover::after {
+content: "Now";
+}
+
+
+
+
+
+

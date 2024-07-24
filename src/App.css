@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home{
+  margin:0;
+  padding:0;
+  height: 90vh;
+  background:#000000;
+   background: radial-gradient(circle farthest-corner at 700px,#4169E0, #352A3B);
+   background-size: cover;
+
+}
+
+.navbar{
+  height: 60px;
+  background-image: url(./Form/img/bar.png);
+  background-size: cover;
+  border: 5px groove black;
+
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+.bar{
+  width: 500px;
+  margin-top: 230px;
+  margin-left: 90px;
+  border: 3px inset black;
+  height: 50px;
+  border-radius: 50px 50px;
+  text-align: center;
+  line-height: 45px;
+  font-family: sans-serif;
+  background-color: cornflowerblue;
+  background-size: cover;
+  font-size: 38px;
+ }
+
+.bar:hover span{
+  display: none;
+}
+
+ .bar:hover::after{
+  color: cyan;
+  text-shadow: 3px 4px 3px rgb(0, 0, 0);
+  content: "Continue  ---}";
+  cursor: pointer;
+  text-decoration: underline;
+
+ }
+
+.contactbg{
+  display: flex;
+  background-image: url(./Counter/images/contact.jpg);
+background-size: cover;
+height: 90vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-shadow: 2px 6px 5px grey;
+  
+}
+
+.header{
+  display: flex;
+  padding-top: 10px;
+  padding-left: 520px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+p{
+  color: whitesmoke;
+  margin: 2px 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+p:hover{
+  color: yellow;
+}
+.topic{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: center;
+  background-color: lightgreen;
+  line-height: 23px;
+} 
+.intro{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+  gap: 900px;
+  font-size: 20px;
+  color: gold;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.basic{
+  padding: 2px 5px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 23px;
+}
+.basic:hover{
+  color: yellow;
+  background-color: rgba(240, 128, 128, 0.541);
+
+}
+.list{
+  padding: 2px 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.list:hover{
+  color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
